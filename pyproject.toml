@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "iptables-manager"
+version = "0.0.1"
+description = "A python library for parsing and managing iptables configuration"
+license = 'Apache License 2.0'
+authors = [
+    'Hamza ESSAYEGH <hamza.essayegh@protonmail.com>'
+]
+readme = 'README.md'
+homepage = 'https://github.com/aeliant/iptables-parser'
+repository = 'https://github.com/aeliant/iptables-parser'
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.4"
